@@ -14,5 +14,4 @@ package Homework2;
             int result2 = num3 * num4;
             System.out.println("Результат:" + result2);
         }
-
     }
