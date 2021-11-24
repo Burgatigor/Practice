@@ -34,8 +34,8 @@ public class Array {
         System.out.println("Максимальное значение массива " + max);
 
         double average = 0;
-        for (int i=0;i<array.length;i++) {
-            average += array[i]/ array.length;
+        for (int i = 0; i < array.length; i++) {
+            average += array[i] / array.length;
         }
         System.out.println();
         System.out.println("Среднее значение массива " + average);
