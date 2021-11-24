@@ -14,6 +14,7 @@ public class Array {
             System.out.print(array[i] + " ");
         }
 
+
         int min = array[0];
         for (int value : array) {
             if (min > value) {
