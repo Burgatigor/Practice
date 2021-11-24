@@ -15,18 +15,18 @@ public class Array {
         }
 
         int min = array[0];
-        for (int i = 0; i < array.length; i++) {
-            if (min > array[i]) {
-                min = array[i];
+        for (int value : array) {
+            if (min > value) {
+                min = value;
             }
         }
         System.out.println();
         System.out.println("Минимальное значение массива " + min);
 
         int max = array[0];
-        for (int i = 0; i < array.length; i++) {
-            if (max < array[i]) {
-                max = array[i];
+        for (int k : array) {
+            if (max < k) {
+                max = k;
 
             }
         }
@@ -34,8 +34,8 @@ public class Array {
         System.out.println("Максимальное значение массива " + max);
 
         double average = 0;
-        for (int i = 0; i < array.length; i++) {
-            average += array[i] / array.length;
+        for (int j : array) {
+            average += (double) j / array.length;
         }
         System.out.println();
         System.out.println("Среднее значение массива " + average);
